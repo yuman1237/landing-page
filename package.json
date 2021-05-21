@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build && next export",
-    "postbuild": "next-sitemap",
+    "heroku-postbuild": "npm run build",
     "start": "next start -p $PORT"
   },
   "dependencies": {
