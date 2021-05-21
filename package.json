@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build && next export",
     "postbuild": "next-sitemap",
-    "start":"next dev"
+    "start": "next start -p $PORT"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
